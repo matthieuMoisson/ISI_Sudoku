@@ -298,12 +298,12 @@ namespace Sudoku
             }
             else
             {
-                MessageBox.Show("La grille comporte des erreures", "Attention", MessageBoxButtons.OK);
+                MessageBox.Show("La grille comporte des erreures ou est incomplete", "Attention", MessageBoxButtons.OK);
             } 
         }
 
         /// <summary>
-        /// 
+        /// Button indice
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
